@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-airbnb",
+  "name": "my-vue-weather",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "read-excel-file": "^5.7.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -23,7 +24,8 @@
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "vue/setup-compiler-macros": true
     },
     "extends": [
       "plugin:vue/vue3-essential",
